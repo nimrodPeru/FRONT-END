@@ -7,13 +7,8 @@
     <title>Itil</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <!--fancy-->
-    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
-    <!-- Add fancyBox main JS and CSS files -->
-    <script type="text/javascript" src="jquery.fancybox.js"></script>
-    <link rel="stylesheet" type="text/css" href="jquery.fancybox.css" media="screen" />
     
+   
 
 
     <style type="text/css">
@@ -47,14 +42,7 @@
         }
         */
     </style>
-    <script>
-        $(document).ready(function(){
 
-            $('.fancybox').fancybox();
-        })
-       
-       
-    </script>
     <script type="text/javascript"> 
     
         $(document).ready(function(){
@@ -92,28 +80,31 @@
 <body>
         <header>
                 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                  <a class="navbar-brand" href="#">ITIL Foundation</a>
+                  <a class="navbar-brand" href="#sect1">ITIL Foundation</a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav mr-auto">
-                      <li class="nav-item active">
-                        <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Contáctenos    </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Simulador</a>
-                      </li>
+                        <li class="nav-item">
+                        <!--li class="nav-item active"-->
+                            <!--a class="nav-link" href="#sect1">Inicio<span class="sr-only">(current)</span></a-->
+                            <a class="nav-link" href="#sect1">Inicio </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sect2">Testimonios   </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sect3" onclick="estadistica()">Estadistica</a>
+                        </li>
+
                     </ul>
                    
                   </div>
                 </nav>
         </header>
 
-        <main role="main">
+        <main role="main" id="sect1">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -172,79 +163,97 @@
                 </a>
                 <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                    <span class="sr-only" >Next</span>
                 </a>
             </div>
-        
+            
+            <div class="container marketing" >
+    
+                <div class="row featurette"  id="sect2" style="padding-top: 100px"  >
+                            <!-- Three columns of text below the carousel -->
+                    <div class="row">
+                            <div class="col-lg-4"><!--col-xs col-sm col-md col-lg #12 es el largo -->
+                                <img class="rounded-circle" src="image/candidato4.jpg" width="140" height="140">
+                                <h2>Candidato 1</h2>
+                                <h3>Cargo 1</h3>
+                                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                                <p class="empresa">Empresa 1</p>
+                                <p><a class="btn btn-secondary fancybox" href="image/cert01.jpg" role="button">Ver certificado &raquo;</a></p>
 
+                            </div><!-- /.col-lg-4 -->
+                            
+                            <div class="col-lg-4">
+                                <img class="rounded-circle" src="image/candidato2.jpg" alt="Generic placeholder image" width="140" height="140">
+                                <h2>Candidato 2</h2>
+                                <h3>Cargo 2</h3>
+                                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                                <p class="empresa">Empresa 2</p>
+                                <p><a class="btn btn-secondary fancybox" href="image/cert01.jpg" role="button">Ver certificado &raquo;</a></p>
+                            </div><!-- /.col-lg-4 -->
+                            <div class="col-lg-4">
+                                <img class="rounded-circle" src="image/candidato3.jpg" alt="Generic placeholder image" width="140" height="140">
+                                <h2>Candidato 3</h2>
+                                <h3>Cargo 3</h3>
+                                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                                <p class="empresa">Empresa 3</p>
+                                <p><a class="btn btn-secondary fancybox" href="image/cert01.jpg" role="button">Ver certificado &raquo;</a></p>
+                            </div><!-- /.col-lg-4 -->
+                    </div>
+    
+                </div><!-- /.row fin sect2 -->
+    
+                <!--hr class="featurette-divider"-->
 
-        <div class="container marketing">
-                
-                        <!-- Three columns of text below the carousel -->
-                        <div class="row">
-                          <div class="col-lg-4"><!--col-xs col-sm col-md col-lg #12 es el largo -->
-                            <img class="rounded-circle" src="image/candidato4.jpg" width="140" height="140">
-                            <h2>Candidato 1</h2>
-                            <h3>Cargo 1</h3>
-                            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                            <p class="empresa">Empresa 1</p>
-                            <p><a class="btn btn-secondary fancybox" href="image/cert01.jpg" role="button">Ver certificado &raquo;</a></p>
-
-                        </div><!-- /.col-lg-4 -->
-                          
-                          <div class="col-lg-4">
-                            <img class="rounded-circle" src="image/candidato2.jpg" alt="Generic placeholder image" width="140" height="140">
-                            <h2>Candidato 2</h2>
-                            <h3>Cargo 2</h3>
-                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                            <p class="empresa">Empresa 2</p>
-                            <p><a class="btn btn-secondary fancybox" href="image/cert01.jpg" role="button">Ver certificado &raquo;</a></p>
-                          </div><!-- /.col-lg-4 -->
-                          <div class="col-lg-4">
-                            <img class="rounded-circle" src="image/candidato3.jpg" alt="Generic placeholder image" width="140" height="140">
-                            <h2>Candidato 3</h2>
-                            <h3>Cargo 3</h3>
-                            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                            <p class="empresa">Empresa 3</p>
-                            <p><a class="btn btn-secondary fancybox" href="image/cert01.jpg" role="button">Ver certificado &raquo;</a></p>
-                          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-                <div>
-                  <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-                  <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                  <div class="row">
-                        <div class="col-lg-4" >
-                            <strong data-to="6" data-append="+" id="">12+</strong>
-                            <p class="parrafo">Talleres dictados</p>
-                        </div>
-                        <div class="col-lg-4">
-                            <strong data-to="6" data-append="+" id="Consultoria"></strong>
-                            <p class="parrafo">Horas de Consultoria</p>
-                        </div>
-                        <div class="col-lg-4">
-                            <strong data-to="6" data-append="+" id="Consultoria1"></strong>
-                            <p class="parrafo">Talleres dictados</p>
-                        </div>
-                  </div>
-        
-        </div>
-        <hr class="featurette-divider">
-        </div>
+                <div class="row featurette" style="padding-bottom: 70px"  >
+                    <div >
+                    <h2 class="featurette-heading" id="sect3">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <div class="row">
+                            <div class="col-lg-4">
+                                <strong data-to="6" data-append="+" id="Consultoria">7+</strong>
+                                <p class="parrafo">Talleres dictados</p>
+                            </div>
+                            <div class="col-lg-4">
+                                <strong data-to="6" data-append="+" id="Consultoria1">150+</strong>
+                                <p class="parrafo">Horas de Consultoria</p>
+                            </div>
+                            <div class="col-lg-4">
+                                <strong data-to="6" data-append="+" id="Consultoria2">100%</strong>
+                                <p class="parrafo">Talleres dictados</p>
+                            </div>
+                    </div>
+            
+                    </div>
+            
+                </div> <!--fin sect3-->
+                    <hr class="featurette-divider">
+            </div>
         </main>
             <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <!--script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
     <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="https://getbootstrap.com/assets/js/vendor/popper.min.js"></script>
     <script src="https://getbootstrap.com/dist/js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="https://getbootstrap.com/assets/js/vendor/holder.min.js"></script>        
-            
+
+    <!--fancy-->
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <!-- Add fancyBox main JS and CSS files -->
+    <script type="text/javascript" src="jquery.fancybox.js"></script>
+    <link rel="stylesheet" type="text/css" href="jquery.fancybox.css" media="screen" />
+    
+    <script>
+            $(document).ready(function(){
+    
+                $('.fancybox').fancybox();
+            })
+           
+     
+    </script>
+    <script src="script.js"></script>      
 </body>
 </html>

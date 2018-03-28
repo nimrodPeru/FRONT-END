@@ -9,7 +9,7 @@
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 31rem;
+  height: 38rem;
   background-color: #777;
 }
 .carousel-item > img {
@@ -17,7 +17,7 @@
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 32rem;
+  height: 38rem;
 }
 
 /* MARKETING CONTENT
@@ -74,5 +74,7 @@ strong{
 
 .parrafo{
   font-size: 2rem;
-  color: #7C7C7C;
+  color: #454C50;
 }
+
+
