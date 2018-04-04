@@ -77,4 +77,18 @@ strong{
   color: #454C50;
 }
 
+/*servicios*/
+.servicios.col-md-5 {
+  text-align: center;
+  background-color: #DDDDDD;
+  
+  padding: 0px;
+  margin: 10px;
+    
+}
+/*
+.border:hover{
+  border: 1px solid #54bac2!important;
+}
+*/
 
