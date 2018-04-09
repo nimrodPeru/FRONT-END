@@ -40,6 +40,15 @@
   color:  #777;
 }
 
+.Depurar_marketing p{
+  font-size: 70%;
+  color:  #777;
+}
+
+.Depurar_marketing span{
+  font-size: 70%;
+  color:  #777;
+}
 .marketing .empresa{
   font-size: 80%;
   font-weight: 700;
@@ -91,4 +100,21 @@ strong{
   border: 1px solid #54bac2!important;
 }
 */
+.author-name{
+  text-align: center;
+  font-size: 20px;
+  
+}
+
+h2.preparador{
+  font-size: 50px;
+  font-weight: 500;
+  color:#343a40;
+}
+.curricula.col-md-9{
+  text-align: center;
+  background-color: #DDDDDD;
+  padding: 5px;
+  margin: 2px;
+}
 
