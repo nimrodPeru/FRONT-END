@@ -1,0 +1,19 @@
+{
+  "name": "itilapplication",
+  "version": "1.0.0",
+  "description": "aplicacion web ",
+  "main": "servidor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimrodPeru/FRONT-END.git"
+  },
+  "author": "Nimrod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nimrodPeru/FRONT-END/issues"
+  },
+  "homepage": "https://github.com/nimrodPeru/FRONT-END#readme"
+}
